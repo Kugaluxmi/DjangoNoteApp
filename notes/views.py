@@ -9,7 +9,6 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Notes
 from .forms import NoteForm
 
-
 class NotesCreateView(CreateView):
     model = Notes
     form_class = NoteForm
